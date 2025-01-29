@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+}
+nav{
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    gap: 2px;
+}
+nav a{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10 10px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+#content{
+    max-width: 1600x;
+    background-color: grey;
+}
+img{
+    width: 400px;
+    display: block;
+    margin: 4px auto;
+}
+p{
+    padding: 0 30px;
+    line-height: 2em;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    word-wrap: break-word;
+}

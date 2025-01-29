@@ -1,0 +1,73 @@
+body{
+    background-color: gainsboro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#content{
+    max-width: 1600x;
+    background-color: darkgray;
+}
+nav{
+    background-color: darkcyan;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+nav a{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10 10px;
+}
+nav a:hover{
+    background-color: darkslategray;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    display: block;
+    margin: 4px auto;
+    
+}
+p{
+    padding: 0 30px;
+    line-height: 2em;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+@media (max-width: 600px){
+    p{
+        max-width: 90%;
+        padding: 0 10px;
+    }
+}
+
+
+#main-topic{
+    color: aquamarine;
+}
+footer{
+    margin-top: 30px;
+    height: 50px;
+    background-color: darkslategrey;
+    text-align: center;
+}
+footer a{
+    color:black;
+    margin-top: 20px;
+}
+h2{
+    margin-top: 2500px;
+    text-align: center;
+    background-color: darkgrey;
+}
