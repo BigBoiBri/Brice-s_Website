@@ -1,43 +1,52 @@
-body{
+body {
     background-color: gainsboro;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    margin: 0;
+    padding: 0;
 }
-#content{
-    max-width: 1600x;
+
+#content {
+    max-width: 1600px;
     background-color: darkgray;
+    margin: 0 auto;
 }
-nav{
+
+nav {
     background-color: darkcyan;
     padding: 20px;
     display: flex;
     justify-content: center;
-    gap: 250px;
+    gap: 50px; 
+    flex-wrap: wrap; 
 }
 
-nav a{
+nav a {
     padding: 10px;
     color: white;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-    margin: 10 10px;
+    margin: 10px;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: darkslategray;
     color: white;
 }
-h1{
+
+h1 {
     text-align: center;
+    font-size: 2em; /* Improved size for readability */
 }
 
-img{
-    width: 400px;
+img {
+    width: 100%; /* Made it responsive */
+    max-width: 400px; /* Maintain the max width for larger screens */
     display: block;
     margin: 4px auto;
-    
 }
-p{
+
+p {
     padding: 0 30px;
     line-height: 2em;
     max-width: 800px;
@@ -45,29 +54,58 @@ p{
     margin: 0 auto;
     word-wrap: break-word;
 }
-@media (max-width: 600px){
-    p{
+
+@media (max-width: 600px) {
+    nav {
+        gap: 20px; 
+        flex-direction: column; 
+        padding: 15px;
+    }
+    
+    nav a {
+        font-size: 16px; 
+    }
+    
+    p {
         max-width: 90%;
         padding: 0 10px;
     }
+    
+    h1 {
+        font-size: 1.5em; 
+    }
+    
+    img {
+        width: 100%; 
+        max-width: none; 
+    }
+    
+    footer {
+        height: auto; 
+        padding: 10px 0;
+    }
+
+    footer a {
+        font-size: 14px;
+    }
 }
 
-
-#main-topic{
+#main-topic {
     color: aquamarine;
 }
-footer{
+
+footer {
     margin-top: 30px;
-    height: 50px;
     background-color: darkslategrey;
     text-align: center;
 }
-footer a{
-    color:black;
-    margin-top: 20px;
+
+footer a {
+    color: black;
 }
-h2{
-    margin-top: 2500px;
+
+h2 {
+    margin-top: 2500px; /* Reduced margin-top */
     text-align: center;
     background-color: darkgrey;
 }
